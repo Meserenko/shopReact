@@ -1,0 +1,18 @@
+.moreAboutItem {
+    width: 1100px;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.item_img {
+    width: 500px;
+    object-fit: contain;
+    margin-right: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+
+.product_details p{
+    padding: 1rem;
+
+}

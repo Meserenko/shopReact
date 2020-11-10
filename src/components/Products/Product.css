@@ -1,0 +1,36 @@
+.product {
+    max-width: 500px;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+}
+
+.product_image {
+    object-fit:contain;
+}
+
+.about_product {
+    padding: 20px;
+}
+.buttons_btn {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+}
+
+.buttons_btn:active {
+    transform: translateY(4px);
+}
+
+.buttons_btn:hover {
+    border: none;
+    color: white;
+    background: #267df4 ;
+}
