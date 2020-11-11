@@ -30,7 +30,7 @@
 }
 
 .buttons_btn:hover {
-    border: none;
+    border: 1px solid white;
     color: white;
     background: #267df4 ;
 }

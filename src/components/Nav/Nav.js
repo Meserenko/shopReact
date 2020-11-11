@@ -12,6 +12,7 @@ constructor() {
 }
 
 
+
 render() {
     return(
         <div className='navbar'>
@@ -30,7 +31,7 @@ render() {
         </div>
     )
 }
-};
+}
 
 
 

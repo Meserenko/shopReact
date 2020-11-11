@@ -2,13 +2,9 @@ import React from "react";
 import './Product.css'
 import { FaDollarSign } from 'react-icons/fa'
 import { Link } from "react-router-dom";
-import { connect } from "react-redux";
-import {
-    addToCart,
-    loadCurrentItem
-} from "../../actions/shoppingActions";
 
-const Product = ({ product, addToCart, loadCurrentItem }) => {
+
+const Product = ({ product, onAddToCartClicked, onLoadItemClicked }) => {
     return (
         <div className='product'>
             <img
@@ -18,33 +14,22 @@ const Product = ({ product, addToCart, loadCurrentItem }) => {
             />
             <div className='about_product'>
                 <h2>{product.title}</h2>
-                <p >{product.description}</p>
-                <p><FaDollarSign/><b>{product.price}</b></p>
+                <p>{product.description}</p>
+                <FaDollarSign/><b>{product.price}</b><br/>
 
-                <button
-                    className='buttons_btn buttons_add'
-                    onClick={() => addToCart(product.id)}
-                >
+                <button className='buttons_btn' onClick={onAddToCartClicked}>
                     Add To Cart
                 </button>
                 <Link to={`/product/${product.id}`}>
-                <button
-                    className='buttons_btn buttons_add'
-                    onClick={() => loadCurrentItem(product)}
-                >
-                    More info
-                </button>
-            </Link>
+                    <button className='buttons_btn' onClick={onLoadItemClicked}>
+                        More info
+                    </button>
+                </Link>
             </div>
         </div>
     );
 };
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        addToCart: (id) => dispatch(addToCart(id)),
-        loadCurrentItem: (item) => dispatch(loadCurrentItem(item))
-    };
-};
 
-export default connect(null, mapDispatchToProps)(Product);
+
+export default Product;

@@ -4,4 +4,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+}
+
+.wrapper h1 {
+    text-align: center;
 }

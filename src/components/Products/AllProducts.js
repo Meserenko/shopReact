@@ -1,23 +1,22 @@
 import React from "react";
 import './AllProducts.css'
-import { connect } from "react-redux";
+import PropTypes from 'prop-types'
 
-import Product from "./Product";
-
-const Products = ({ products }) => {
+const Products = ({ title, children }) => {
     return (
-        <div className='products'>
-            {products.map((product) => (
-                <Product key={product.id} product={product} />
-            ))}
+        <div className='wrapper'>
+            <h1>{title}</h1>
+            <div className='products'>
+                {children}
+            </div>
         </div>
     );
 };
 
-const mapStateToProps = (state) => {
-    return {
-        products: state.products,
-    };
-};
+Products.propTypes = {
+    children: PropTypes.node,
+    title: PropTypes.string.isRequired
+}
 
-export default connect(mapStateToProps)(Products);
+
+export default Products;

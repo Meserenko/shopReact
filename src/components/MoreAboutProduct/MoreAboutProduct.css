@@ -1,18 +1,30 @@
-.moreAboutItem {
-    width: 1100px;
-    margin: 2rem auto;
+
+
+
+.moreAboutProduct {
+    max-width: 100%;
+    margin: 20px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+
 
 .item_img {
     width: 500px;
-    object-fit: contain;
-    margin-right: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    border-radius: 10px;
+
 }
 
-.product_details p{
-    padding: 1rem;
+.about_product h1 {
+    line-height: 72px;
+    font-weight: 400;
+    color: #26272d;
+}
 
+.about_product p{
+    max-width: 900px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
 }
