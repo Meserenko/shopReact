@@ -1,6 +1,5 @@
 import React from "react";
 import './Product.css'
-import { FaDollarSign } from 'react-icons/fa'
 import { Link } from "react-router-dom";
 
 
@@ -15,7 +14,7 @@ const Product = ({ product, onAddToCartClicked, onLoadItemClicked }) => {
             <div className='about_product'>
                 <h2>{product.title}</h2>
                 <p>{product.description}</p>
-                <FaDollarSign/><b>{product.price}</b><br/>
+                <b>{product.price} &#36;</b><br/>
 
                 <button className='buttons_btn' onClick={onAddToCartClicked}>
                     Add To Cart

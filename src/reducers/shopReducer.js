@@ -6,6 +6,9 @@ import {
 import Item1 from '../images/item1.jpg'
 import Item2 from '../images/item2.jpg'
 import Item3 from '../images/item3.jpg'
+import Item4 from '../images/item4.jpg'
+import Item5 from '../images/item5.jpg'
+import Item6 from '../images/item6.jpg'
 
 const initialState = {
     products: [
@@ -37,63 +40,74 @@ const initialState = {
         },
         {
             id: 4,
-            title: "APPLE iPhone 11",
+            title: "APPLE iPhone 12",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            price: 900.0,
+            price: 1200.0,
             fullDescription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            image: Item1
+            image: Item4
         },
         {
             id: 5,
-            title: "APPLE MacBook Pro",
+            title: "APPLE iMac Retina",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             fullDescription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            price: 3400.0,
-            image: Item2
+            price: 2550.0,
+            image: Item5
         },
         {
             id: 6,
-            title: "APPLE iPad Air",
+            title: "APPLE AirPods Pro",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             fullDescription: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            price: 800.0,
-            image: Item3
+            price: 300.0,
+            image: Item6
         },
     ],
     cart: [],
+    total: 0,
     currentItem: null,
 };
 
 const shopReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_TO_CART:
-            // Great MoreAboutProduct data from products array
-            const item = state.products.find(
-                (product) => product.id === action.id
-            );
-            // Check if MoreAboutProduct is in cart already
-            const inCart = state.cart.find((item) =>
-                item.id === action.id ? true : false
-            );
+            let addedItem = state.products.find(item=> item.id === action.id)
+            //check if the action id exists in the addedItems
+            let existed_item= state.cart.find(item=> action.id === item.id)
+            if(existed_item)
+            {
+                addedItem.quantity += 1
+                return{
+                    ...state,
+                    total: state.total + addedItem.price
+                }
+            }
+            else{
+                addedItem.quantity = 1;
+                //calculating the total
+                let newTotal = state.total + addedItem.price
 
-            return {
-                ...state,
-                cart: inCart
-                    ? state.cart.map((item) =>
-                        item.id === action.id
-                            ? { ...item, qty: item.qty + 1 }
-                            : item
-                    )
-                    : [...state.cart, { ...item, qty: 1 }],
-            };
+                return{
+                    ...state,
+                    cart: [...state.cart, addedItem],
+                    total : newTotal
+                }
+
+            }
         case REMOVE_FROM_CART:
-            return {
+            let itemToRemove= state.cart.find(item=> action.id === item.id)
+            let new_items = state.cart.filter(item=> action.id !== item.id)
+
+            let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity )
+            return{
                 ...state,
-                cart: state.cart.filter((item) => item.id !== action.payload.id),
-            };
+                cart: new_items,
+                total: newTotal
+            }
+
         case LOAD_CURRENT_ITEM:
             return {
                 ...state,
