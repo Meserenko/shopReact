@@ -1,7 +1,7 @@
 import {
     ADD_TO_CART,
     REMOVE_FROM_CART,
-    LOAD_CURRENT_ITEM
+    LOAD_CURRENT_ITEM, LOAD_COUNT, ADD_QUANTITY, SUB_QUANTITY
 } from '../constants/shoppingConstants';
 import Item1 from '../images/item1.jpg'
 import Item2 from '../images/item2.jpg'
@@ -68,16 +68,17 @@ const initialState = {
     ],
     cart: [],
     total: 0,
+    count: 0,
     currentItem: null,
 };
 
 const shopReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_TO_CART:
-            let addedItem = state.products.find(item=> item.id === action.id)
+            let addedItem = state.products.find(item => item.id === action.id)
             //check if the action id exists in the addedItems
-            let existed_item= state.cart.find(item=> action.id === item.id)
-            if(existed_item)
+            let existedItem= state.cart.find(item => action.id === item.id)
+            if(existedItem)
             {
                 addedItem.quantity += 1
                 return{
@@ -98,21 +99,47 @@ const shopReducer = (state = initialState, action) => {
 
             }
         case REMOVE_FROM_CART:
-            let itemToRemove= state.cart.find(item=> action.id === item.id)
-            let new_items = state.cart.filter(item=> action.id !== item.id)
+            let itemToRemove= state.cart.find(item => action.id === item.id)
+            let newItems = state.cart.filter(item => action.id !== item.id)
 
             let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity )
             return{
                 ...state,
-                cart: new_items,
+                cart: newItems,
                 total: newTotal
-            }
-
+            };
         case LOAD_CURRENT_ITEM:
             return {
                 ...state,
                 currentItem: action.product,
-            };
+            }
+        case ADD_QUANTITY:
+            let addItemQuantity = state.products.find(item => item.id === action.id)
+            addItemQuantity.quantity += 1
+            let newTotalSum = state.total + addItemQuantity.price
+            return{
+                ...state,
+                total: newTotalSum
+            }
+        case SUB_QUANTITY:
+            let subItemQuantity = state.products.find(item => item.id === action.id)
+            if(subItemQuantity.quantity === 1){
+                let newItems = state.cart.filter(item => item.id !== action.id)
+                let newTotal = state.total - subItemQuantity.price
+                return{
+                    ...state,
+                    cart: newItems,
+                    total: newTotal
+                }
+            }
+            else {
+                subItemQuantity.quantity -= 1
+                let newTotal = state.total - subItemQuantity.price
+                return{
+                    ...state,
+                    total: newTotal
+                }
+            }
         default:
             return state;
     }

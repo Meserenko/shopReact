@@ -21,3 +21,15 @@ export const loadCurrentItem = (product) => {
     };
 };
 
+export const subtractQuantity=(id)=>{
+    return{
+        type: types.SUB_QUANTITY,
+        id
+    }
+}
+export const addQuantity=(id)=>{
+    return{
+        type: types.ADD_QUANTITY,
+        id
+    }
+}

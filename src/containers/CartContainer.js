@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { removeFromCart } from '../actions/shoppingActions'
+import { removeFromCart, addQuantity, subtractQuantity } from '../actions/shoppingActions'
 import Cart from '../components/Cart/Cart'
 
 
@@ -14,6 +14,8 @@ const mapStateToProps = (state)=>{
 const mapDispatchToProps = (dispatch)=>{
     return{
         removeFromCart: (id)=>{dispatch(removeFromCart(id))},
+        addQuantity: (id)=>{dispatch(addQuantity(id))},
+        subtractQuantity: (id)=>{dispatch(subtractQuantity(id))}
     }
 }
 export default connect(

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css'
+import { TiArrowUpOutline, TiArrowDownOutline } from 'react-icons/ti'
 const Cart = (props) =>{
 
         let addedItems = props.products.length ?
@@ -11,14 +12,17 @@ const Cart = (props) =>{
                                 <div >
                                     <img src={item.image} alt={item.image}/>
                                 </div>
-
                                 <div className="about_product">
                                     <h3>{item.title}</h3>
                                     <p>{item.description}</p>
                                     <b>Price: {item.price}$</b>
-                                    <p>
-                                        <b>Quantity: {item.quantity}</b>
-                                    </p>
+                                    <div className='quantity'>
+                                        <TiArrowDownOutline className="arrows" onClick={()=>props.subtractQuantity(item.id)}>arrow_drop_down</TiArrowDownOutline>
+                                        <p>
+                                            <b>Quantity: {item.quantity}</b>
+                                        </p>
+                                        <TiArrowUpOutline className="arrows" onClick={()=>props.addQuantity(item.id)}>arrow_drop_up</TiArrowUpOutline>
+                                    </div>
                                     <button className="removeButton" onClick={() => props.removeFromCart(item.id)}>Remove From Cart</button>
                                 </div>
                             </div>

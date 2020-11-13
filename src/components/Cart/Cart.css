@@ -30,3 +30,16 @@
     color: white;
     background: #267df4 ;
 }
+
+.arrows {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
