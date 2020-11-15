@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import Nav from './components/Nav/Nav'
 import { connect } from "react-redux";
 import ProductsContainer from "./containers/ProductsContainer";
 import MoreAboutProductContainer from "./containers/MoreAboutProductContainer";

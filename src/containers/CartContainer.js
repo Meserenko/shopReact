@@ -13,9 +13,9 @@ const mapStateToProps = (state)=>{
 }
 const mapDispatchToProps = (dispatch)=>{
     return{
-        removeFromCart: (id)=>{dispatch(removeFromCart(id))},
-        addQuantity: (id)=>{dispatch(addQuantity(id))},
-        subtractQuantity: (id)=>{dispatch(subtractQuantity(id))}
+        removeFromCart: (id) =>{dispatch(removeFromCart(id))},
+        addQuantity: (id) =>{dispatch(addQuantity(id))},
+        subtractQuantity: (id) =>{dispatch(subtractQuantity(id))}
     }
 }
 export default connect(

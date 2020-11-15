@@ -18,6 +18,7 @@ const store = createStore(reducer, /* preloadedState, */ composeEnhancers(
     applyMiddleware(...middleware)
 ))
 
+
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>

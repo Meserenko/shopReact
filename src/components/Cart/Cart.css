@@ -2,8 +2,11 @@
     text-align: center;
 }
 
-.cartProduct {
-    width: 600px;
+.cartProduct div:first-child{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
     margin: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
@@ -33,13 +36,26 @@
 
 .arrows {
     cursor: pointer;
-    width: 30px;
+    width: 35px;
     height: 20px;
 
+
 }
 
-.quantity {
+
+
+.cartAndTotal {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+.total {
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    height: 100%;
+    width: 500px;
+}
+
