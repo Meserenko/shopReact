@@ -1,4 +1,5 @@
 import * as types from "../constants/shoppingConstants";
+import shop from "../api/shop";
 
 export const addToCart = (id) => {
     return {
@@ -6,6 +7,18 @@ export const addToCart = (id) => {
         id
     };
 };
+
+export const receiveProducts = products => ({
+    type: types.RECEIVE_PRODUCTS,
+    products
+})
+
+export const getAllProducts = () => dispatch => {
+    shop.getProducts(products => {
+        dispatch(receiveProducts(products))
+    })
+}
+
 
 export const removeFromCart = (id) => {
     return {

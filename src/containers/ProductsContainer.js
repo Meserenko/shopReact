@@ -23,8 +23,10 @@ const mapStateToProps = state => ({
     products: state.products
 })
 
+
 const mapDispatchToProps = (dispatch) => {
     return {
+
         addToCart: (id) => dispatch(addToCart(id)),
         loadCurrentItem: (item) => dispatch(loadCurrentItem(item)),
     };
