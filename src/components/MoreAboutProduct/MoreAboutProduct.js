@@ -7,7 +7,7 @@ const MoreAboutProduct = ({ current, onAddToCartClicked }) => {
             <div className= 'moreAboutProduct'>
                 <img
                     className='item_img'
-                    src={current.image}
+                    src={current.fullImage}
                     alt={current.title}
                 />
                 <div className='about_product'>

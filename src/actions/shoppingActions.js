@@ -13,6 +13,7 @@ export const receiveProducts = products => ({
     products
 })
 
+
 export const getAllProducts = () => dispatch => {
     shop.getProducts(products => {
         dispatch(receiveProducts(products))
@@ -46,3 +47,50 @@ export const addQuantity=(id)=>{
         id
     }
 }
+
+export const orderProducts=(products,sort)=> {
+    return {
+        type: types.ORDER_PRODUCTS_BY_PRICE,
+        payload: {
+            sort: sort,
+            products: products,
+        }
+    }
+}
+
+
+
+export const sortProducts = (items, sort) => (dispatch) => {
+    const products = items.slice();
+    if (sort !== "") {
+        products.sort((a, b) =>
+                sort === "lowestprice"
+                ? a.price > b.price
+                ? 1
+                : -1
+                : sort === "highestprice"
+                ? a.price < b.price
+                ? 1
+                : -1
+                : sort === "atoz"
+                ? a.title > b.title
+                ? 1
+                : -1
+                : sort === "ztoa"
+                ? a.title < b.title
+                ? 1
+                : -1
+                : null
+        );
+    } else {
+        products.sort((a, b) => (a.id > b.id ? 1 : -1));
+    }
+    dispatch(orderProducts(products, sort))
+}
+
+export const searchProduct = text => dispatch => {
+    dispatch({
+        type: types.SEARCH_PRODUCT,
+        text
+    });
+};

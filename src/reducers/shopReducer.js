@@ -4,11 +4,14 @@ import {
     LOAD_CURRENT_ITEM,
     ADD_QUANTITY,
     SUB_QUANTITY,
-    RECEIVE_PRODUCTS
+    RECEIVE_PRODUCTS,
+    ORDER_PRODUCTS_BY_PRICE
 } from '../constants/shoppingConstants';
 
 const initialState = {
     products: [],
+    filteredProducts: [],
+    sort: "",
     cart: [],
     total: 0,
     currentItem: null,
@@ -19,7 +22,8 @@ const shopReducer = (state = initialState, action) => {
         case RECEIVE_PRODUCTS:
             return {
                 ...state,
-                products: action.products
+                products: action.products,
+                filteredProducts: action.products
             }
         case ADD_TO_CART:
             let addedItem = state.products.find(item => item.id === action.id)
@@ -85,6 +89,12 @@ const shopReducer = (state = initialState, action) => {
                     total: newTotal
                 }
             }
+        case ORDER_PRODUCTS_BY_PRICE:
+            return {
+                ...state,
+                filteredProducts: action.payload.products,
+                sort: action.payload.sort,
+            };
         default:
             return state;
     }

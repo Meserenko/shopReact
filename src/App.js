@@ -18,7 +18,6 @@ const App = (props) => {
                         ) : (
                             <Route path="/product/:id" component={MoreAboutProductContainer} />
                         )}
-
                     </Switch>
                 </div>
             </BrowserRouter>

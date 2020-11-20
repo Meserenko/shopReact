@@ -4,23 +4,26 @@ import {addToCart, loadCurrentItem} from '../actions/shoppingActions'
 import Product from '../components/Products/Product'
 import Products from "../components/Products/AllProducts";
 
+const ProductsContainer = ({ products, addToCart, loadCurrentItem }) => {
+        return (
+            <div>
+            <Products title="Products">
+                {products.map(product =>
+                        <Product
+                            key={product.id}
+                            product={product}
+                            onAddToCartClicked={() => addToCart(product.id)}
+                            onLoadItemClicked={() => loadCurrentItem(product)}/>
+                    )}
+            </Products>
+            </div>
+            )
 
-
-const ProductsContainer = ({ products, addToCart, loadCurrentItem }) => (
-    <Products title="Products">
-        {products.map(product =>
-            <Product
-                key={product.id}
-                product={product}
-                onAddToCartClicked={() => addToCart(product.id)}
-                onLoadItemClicked={() => loadCurrentItem(product)}/>
-        )}
-    </Products>
-)
+}
 
 
 const mapStateToProps = state => ({
-    products: state.products
+    products: state.filteredProducts
 })
 
 
