@@ -1,10 +1,17 @@
-
 .navbar {
-    max-width: 100% ;
+    width: 100% ;
     display: flex;
     justify-content: space-around;
     background: #333;
+}
 
+.navbar h3 span {
+    color: #267df4;
+
+}
+
+.logo {
+    text-decoration: none;
 }
 
 .navbar_link {
@@ -23,11 +30,9 @@
 
 .navbar_cart {
     display: flex;
-    justify-content: center;
     padding: 20px;
     cursor: pointer;
 }
-
 
 
 .cart_title {
@@ -41,18 +46,10 @@
 }
 
 .cart_image {
-    width: 40px;
-    height: 40px;
+    height: 30px;
     color: white;
 }
 
 .cart_counter {
-    height: 30px;
-    width: 30px;
-    border: 1px solid white;
-    border-radius: 50%;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+    left: 0;
 }

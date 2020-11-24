@@ -4,6 +4,7 @@ import ProductsContainer from "./containers/ProductsContainer";
 import MoreAboutProductContainer from "./containers/MoreAboutProductContainer";
 import CartContainer from "./containers/CartContainer";
 import NavContainer from "./containers/NavContainer";
+import Footer from "./components/Footer/Footer";
 
 const App = (props) => {
         return (
@@ -19,6 +20,7 @@ const App = (props) => {
                             <Route path="/product/:id" component={MoreAboutProductContainer} />
                         )}
                     </Switch>
+                    <Footer />
                 </div>
             </BrowserRouter>
 
