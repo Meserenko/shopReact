@@ -1,18 +1,13 @@
-
-
-
 .moreAboutProduct {
-    max-width: 100%;
     margin: 20px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 
 
 .item_img {
-    width: 500px;
+    max-width: 100%;
 
 }
 
@@ -27,4 +22,11 @@
     line-height: 28px;
     font-weight: 400;
     color: #8c8f94;
+}
+
+@media (max-width: 1002px){
+    .moreAboutProduct {
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }

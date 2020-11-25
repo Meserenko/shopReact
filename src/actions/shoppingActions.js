@@ -28,6 +28,16 @@ export const removeFromCart = (id) => {
     };
 };
 
+
+export const checkout = products => (dispatch, cart) => {
+    shop.buyProducts(products, () => {
+        dispatch({
+            type: types.CHECKOUT_PRODUCTS,
+            cart
+        })
+    })
+}
+
 export const loadCurrentItem = (product) => {
     return {
         type: types.LOAD_CURRENT_ITEM,

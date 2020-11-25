@@ -5,7 +5,8 @@ import {
     ADD_QUANTITY,
     SUB_QUANTITY,
     RECEIVE_PRODUCTS,
-    ORDER_PRODUCTS_BY_PRICE
+    ORDER_PRODUCTS_BY_PRICE,
+    CHECKOUT_PRODUCTS
 } from '../constants/shoppingConstants';
 
 const initialState = {
@@ -57,6 +58,12 @@ const shopReducer = (state = initialState, action) => {
                 cart: newItems,
                 total: newTotal
             };
+        case CHECKOUT_PRODUCTS:
+            return {
+                ...state,
+                cart: initialState.cart,
+                total: initialState.total
+            }
         case LOAD_CURRENT_ITEM:
             return {
                 ...state,

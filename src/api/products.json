@@ -3,7 +3,7 @@
     "id": 1,
     "title": "APPLE iPhone 11",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 900.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6510863.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6510863_0.jpg"
@@ -11,9 +11,8 @@
   {
   "id": 2,
   "title": "APPLE MacBook Pro",
-  "description":
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
+  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
   "price": 3400.0,
   "image": "https://i1.foxtrot.com.ua/product/thumb/6606024.jpg",
   "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6606024_0.jpg"
@@ -21,9 +20,8 @@
   {
   "id": 3,
   "title": "APPLE iPad Air",
-  "description":
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
-  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
   "price": 800.0,
   "image": "https://i1.foxtrot.com.ua/product/thumb/6472197.jpg",
   "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6472197_0.jpg"
@@ -31,19 +29,17 @@
   {
   "id": 4,
   "title": "APPLE iPhone 12",
-  "description":
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
   "price": 1200.0,
-  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   "image": "https://i1.foxtrot.com.ua/product/thumb/6624997.jpg",
   "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612136_0.jpg"
   },
   {
   "id": 5,
   "title": "APPLE iPhone 12 Pro",
-  "description":
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
   "price": 1500.0,
   "image": "https://i1.foxtrot.com.ua/product/thumb/6612159.jpg",
   "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612159_0.jpg"
@@ -51,9 +47,8 @@
   {
   "id": 6,
   "title": "APPLE AirPods Pro",
-  "description":
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
   "price": 300.0,
   "image": "https://i1.foxtrot.com.ua/product/thumb/6523099.jpg",
   "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6523099_0.jpg"
@@ -62,7 +57,7 @@
     "id": 7,
     "title": "APPLE iPhone 11",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 900.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6510863.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6510863_0.jpg"
@@ -70,9 +65,8 @@
   {
     "id": 8,
     "title": "APPLE MacBook Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 3400.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6606024.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6606024_0.jpg"
@@ -80,9 +74,8 @@
   {
     "id": 9,
     "title": "APPLE iPad Air",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 800.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6472197.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6472197_0.jpg"
@@ -90,19 +83,17 @@
   {
     "id": 10,
     "title": "APPLE iPhone 12",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 1200.0,
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     "image": "https://i1.foxtrot.com.ua/product/thumb/6624997.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612136_0.jpg"
   },
   {
     "id": 11,
     "title": "APPLE iPhone 12 Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 1500.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6612159.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612159_0.jpg"
@@ -110,9 +101,8 @@
   {
     "id": 12,
     "title": "APPLE AirPods Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 300.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6523099.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6523099_0.jpg"
@@ -121,7 +111,7 @@
     "id": 13,
     "title": "APPLE iPhone 11",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 900.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6510863.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6510863_0.jpg"
@@ -129,9 +119,8 @@
   {
     "id": 14,
     "title": "APPLE MacBook Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 3400.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6606024.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6606024_0.jpg"
@@ -139,9 +128,8 @@
   {
     "id": 15,
     "title": "APPLE iPad Air",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 800.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6472197.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6472197_0.jpg"
@@ -149,19 +137,17 @@
   {
     "id": 16,
     "title": "APPLE iPhone 12",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 1200.0,
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     "image": "https://i1.foxtrot.com.ua/product/thumb/6624997.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612136_0.jpg"
   },
   {
     "id": 17,
     "title": "APPLE iPhone 12 Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 1500.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6612159.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6612159_0.jpg"
@@ -169,9 +155,8 @@
   {
     "id": 18,
     "title": "APPLE AirPods Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 300.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6523099.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6523099_0.jpg"
@@ -180,7 +165,7 @@
     "id": 19,
     "title": "APPLE iPhone 11",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 900.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6510863.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6510863_0.jpg"
@@ -188,9 +173,8 @@
   {
     "id": 20,
     "title": "APPLE MacBook Pro",
-    "description":
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
-    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia totam veritatis. A ab adasperiores, beatae eius ex?",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.dolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Loredolor sit amet, consectetur adipisicing elit.Lore",
     "price": 3400.0,
     "image": "https://i1.foxtrot.com.ua/product/thumb/6606024.jpg",
     "fullImage": "https://i1.foxtrot.com.ua/product/MediumImages/6606024_0.jpg"
