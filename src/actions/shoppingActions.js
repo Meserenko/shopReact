@@ -98,9 +98,9 @@ export const sortProducts = (items, sort) => (dispatch) => {
     dispatch(orderProducts(products, sort))
 }
 
-export const searchProduct = text => dispatch => {
-    dispatch({
-        type: types.SEARCH_PRODUCT,
-        text
-    });
-};
+// export const searchProduct = text => dispatch => {
+//     dispatch({
+//         type: types.SEARCH_PRODUCT,
+//         text
+//     });
+// };
