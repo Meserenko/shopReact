@@ -22,6 +22,7 @@ class Filter extends React.Component {
                             <option value="highestprice">Highest to lowest price</option>
                             <option value="atoz">A-Z</option>
                             <option value="ztoa">Z-A</option>
+                            <option value="favorites">Favorites</option>
                         </select>
                 </div>
         );

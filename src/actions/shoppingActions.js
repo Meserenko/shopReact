@@ -8,6 +8,7 @@ export const addToCart = (id) => {
     };
 };
 
+
 export const receiveProducts = products => ({
     type: types.RECEIVE_PRODUCTS,
     products
@@ -58,9 +59,10 @@ export const addQuantity=(id)=>{
     }
 }
 
+
 export const orderProducts=(products,sort)=> {
     return {
-        type: types.ORDER_PRODUCTS_BY_PRICE,
+        type: types.ORDER_PRODUCTS,
         payload: {
             sort: sort,
             products: products,
@@ -90,6 +92,10 @@ export const sortProducts = (items, sort) => (dispatch) => {
                 ? a.title < b.title
                 ? 1
                 : -1
+                : sort === "favorites"
+                ? a.favorite > b.favorite
+                ? -1
+                : 1
                 : null
         );
     } else {

@@ -9,4 +9,23 @@
 
 .wrapper h1 {
     text-align: center;
+
+}
+
+.search {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.search input {
+    padding:10px;
+    border: 1px solid black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    outline: none;
+
+}
+
+.nothingFound {
+    padding: 50px 0 170px 0;
 }

@@ -5,8 +5,8 @@ import {
     ADD_QUANTITY,
     SUB_QUANTITY,
     RECEIVE_PRODUCTS,
-    ORDER_PRODUCTS_BY_PRICE,
-    CHECKOUT_PRODUCTS
+    ORDER_PRODUCTS,
+    CHECKOUT_PRODUCTS, CHANGE_FAVORITE
 } from '../constants/shoppingConstants';
 
 const initialState = {
@@ -96,7 +96,7 @@ const shopReducer = (state = initialState, action) => {
                     total: newTotal
                 }
             }
-        case ORDER_PRODUCTS_BY_PRICE:
+        case ORDER_PRODUCTS:
             return {
                 ...state,
                 filteredProducts: action.payload.products,

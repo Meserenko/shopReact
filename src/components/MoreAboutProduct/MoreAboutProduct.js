@@ -14,10 +14,7 @@ const MoreAboutProduct = ({ current, onAddToCartClicked }) => {
                     <h1>{current.title}</h1>
                     <p>{current.fullDescription}</p>
                     <b>$ {current.price}</b>
-                    <button className='buttons_btn'
-                        onClick={onAddToCartClicked}
-
-                    >
+                    <button className='buttons_btn' onClick={onAddToCartClicked}>
                         Add To Cart
                     </button>
                 </div>
