@@ -37,6 +37,7 @@ export const checkout = products => (dispatch, cart) => {
             cart
         })
     })
+    alert('Thank you for shopping with us')
 }
 
 export const loadCurrentItem = (product) => {
@@ -92,10 +93,6 @@ export const sortProducts = (items, sort) => (dispatch) => {
                 ? a.title < b.title
                 ? 1
                 : -1
-                : sort === "favorites"
-                ? a.favorite > b.favorite
-                ? -1
-                : 1
                 : null
         );
     } else {
@@ -104,9 +101,3 @@ export const sortProducts = (items, sort) => (dispatch) => {
     dispatch(orderProducts(products, sort))
 }
 
-// export const searchProduct = text => dispatch => {
-//     dispatch({
-//         type: types.SEARCH_PRODUCT,
-//         text
-//     });
-// };

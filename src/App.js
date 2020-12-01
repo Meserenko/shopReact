@@ -5,6 +5,7 @@ import MoreAboutProductContainer from "./containers/MoreAboutProductContainer";
 import CartContainer from "./containers/CartContainer";
 import NavContainer from "./containers/NavContainer";
 import Footer from "./components/Footer/Footer";
+import CheckoutForm from "./components/Form/Form";
 
 const App = (props) => {
         return (
@@ -12,6 +13,7 @@ const App = (props) => {
                 <div className="App">
                     <NavContainer />
                     <Switch>
+                        <Route path='/form' component={CheckoutForm} />
                         <Route exact path="/" component={ProductsContainer} />
                         <Route exact path="/cart" component={CartContainer} />
                         {!props.current ? (

@@ -25,7 +25,11 @@
 
 .productsAndTotal {
     overflow: hidden;
-    padding: 150px 0;
+    padding: 160px 0;
+}
+
+.products-not-found {
+    text-align: center;
 }
 
 .basket,

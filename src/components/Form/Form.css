@@ -1,0 +1,51 @@
+/*.checkout-form {*/
+/*    text-align: center;*/
+/*    margin: 100px 0 130px 0;*/
+/*}*/
+
+/*.checkout-form-container {*/
+/*    box-shadow: 0 2px 8px rgba(0, 0, 0, 1);*/
+/*    border-radius: 10px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.checkout-form div {*/
+/*    margin-top: 20px;*/
+
+/*}*/
+
+/*.form-control {*/
+/*    width: 25%;*/
+
+/*}*/
+
+.checkout-form-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.checkout-form {
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+
+.form-control {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.invalid-feedback {
+    font-size: 12px;
+    color: red;
+
+}

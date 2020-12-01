@@ -15,11 +15,15 @@ class ProductsContainer extends React.Component {
     updateSearch = (e) => {
         this.setState({search: e.target.value})
 }
+
+
+
     render() {
         let filteredProducts = this.props.products.filter(product => {
             return product.title.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
         });
         return (
+
             <div>
                 <div className='search'>
                     <input type="text"
@@ -33,6 +37,7 @@ class ProductsContainer extends React.Component {
                         <Product
                             key={product.id}
                             product={product}
+                            products={this.props.products}
                             onAddToCartClicked={() => this.props.addToCart(product.id)}
                             onLoadItemClicked={() => this.props.loadCurrentItem(product)}
                         />

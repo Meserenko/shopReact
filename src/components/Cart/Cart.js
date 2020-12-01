@@ -3,6 +3,7 @@ import './Cart.css'
 import { TiArrowUpOutline, TiArrowDownOutline } from 'react-icons/ti'
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Link} from "react-router-dom";
 
 
 const Cart = (props) => {
@@ -70,9 +71,13 @@ const Cart = (props) => {
                             <div className='total-title'>Total</div>
                             <div id='basket-total' className='total-value final-value'><b>{props.total}$</b></div>
                         </div>
+                        {addedItems.length ?
+                            <Link to='/form'>
                         <div className='summary-checkout'>
                             <button className='checkout-button buttons_btn' onClick={() => props.checkout()}>Checkout</button>
                         </div>
+                            </Link>
+                            : <p className='products-not-found'><b>Products not found</b></p>}
                     </div>
                 </aside>
             </div>

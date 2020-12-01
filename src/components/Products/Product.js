@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const Product = ({ product, onAddToCartClicked, onLoadItemClicked }) => {
+
     return (
         <div className='product'>
             <img

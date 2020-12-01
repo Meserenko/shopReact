@@ -9,6 +9,7 @@ import thunk from 'redux-thunk'
 import reducer from './reducers/shopReducer'
 import {getAllProducts} from "./actions/shoppingActions";
 
+
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
     middleware.push(createLogger());
