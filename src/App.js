@@ -13,7 +13,7 @@ const App = (props) => {
                 <div className="App">
                     <NavContainer />
                     <Switch>
-                        <Route path='/form' component={CheckoutForm} />
+                        <Route exact path='/form' component={CheckoutForm} />
                         <Route exact path="/" component={ProductsContainer} />
                         <Route exact path="/cart" component={CartContainer} />
                         {!props.current ? (
