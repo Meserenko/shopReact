@@ -4,8 +4,6 @@ import { TiArrowUpOutline, TiArrowDownOutline } from 'react-icons/ti'
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
-import {discount} from "../../actions/shoppingActions";
-
 
 
 class Cart extends React.Component {
@@ -130,7 +128,9 @@ class Cart extends React.Component {
                     </div>
                 </aside>
             </div>
+
         )
     }
+
 }
 export default Cart;

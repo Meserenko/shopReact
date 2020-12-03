@@ -20,6 +20,7 @@ const initialState = {
 };
 
 const shopReducer = (state = initialState, action) => {
+    const discount = 20 / 100;
     switch (action.type) {
         case RECEIVE_PRODUCTS:
             return {
@@ -36,7 +37,7 @@ const shopReducer = (state = initialState, action) => {
                 return{
                     ...state,
                     total: state.total + addedItem.price,
-                    discount: state.total * 20 / 100
+                    discount: state.total * discount
                 }
             }
             else{
@@ -47,7 +48,7 @@ const shopReducer = (state = initialState, action) => {
                     ...state,
                     cart: [...state.cart, addedItem],
                     total : newTotal,
-                    discount: newTotal * 20 / 100
+                    discount: newTotal * discount
                 }
 
             }
@@ -60,7 +61,7 @@ const shopReducer = (state = initialState, action) => {
                 ...state,
                 cart: newItems,
                 total: newTotal,
-                discount: newTotal * 20 / 100
+                discount: newTotal * discount
             };
         case CHECKOUT_PRODUCTS:
             return {
@@ -81,7 +82,7 @@ const shopReducer = (state = initialState, action) => {
             return{
                 ...state,
                 total: newTotalSum,
-                discount: newTotalSum * 20 / 100
+                discount: newTotalSum * discount
             }
         case SUB_QUANTITY:
             let subItemQuantity = state.products.find(item => item.id === action.id)
@@ -92,7 +93,7 @@ const shopReducer = (state = initialState, action) => {
                     ...state,
                     cart: newItems,
                     total: newTotal,
-                    discount: newTotal * 20 / 100
+                    discount: newTotal * discount
                 }
             }
             else {
@@ -101,7 +102,7 @@ const shopReducer = (state = initialState, action) => {
                 return{
                     ...state,
                     total: newTotal,
-                    discount: newTotal * 20 / 100
+                    discount: newTotal * discount
                 }
             }
         case ORDER_PRODUCTS:

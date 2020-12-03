@@ -97,6 +97,7 @@
 
 .promocode-input {
     border-radius: 15px;
+    border: 1px solid grey;
     padding: 5px;
     outline: none;
 }
@@ -174,6 +175,7 @@
     float: left;
     width: 50%;
 }
+
 
 
 .subtotal-value,
