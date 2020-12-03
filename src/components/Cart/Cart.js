@@ -4,6 +4,7 @@ import { TiArrowUpOutline, TiArrowDownOutline } from 'react-icons/ti'
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
+import {discount} from "../../actions/shoppingActions";
 
 
 
@@ -13,7 +14,8 @@ class Cart extends React.Component {
         this.state = {
             code: '',
             total: this.props.total,
-            submit: false
+            submit: false,
+            discount: this.props.discount
         }
 
     }
@@ -28,7 +30,7 @@ class Cart extends React.Component {
         e.preventDefault();
         if (this.state.code === 'discount') {
             this.setState({
-                total: this.props.total - (this.props.total * 20 / 100),
+                total: this.props.total - this.props.discount,
                 submit: true
             })
             alert("Success! You have 20% discount")
@@ -102,7 +104,7 @@ class Cart extends React.Component {
                                 {this.state.submit === true ?
                                     <div className='summary-total'>
                                         <div className='total-title'>Total</div>
-                                        <div id='basket-total' className='total-value final-value'><b className='discount'>{this.props.total}$</b>  <b>{this.state.total}$</b>
+                                        <div id='basket-total' className='total-value final-value'><b className='discount'>{this.props.total}$</b>  <b>{this.props.total - this.props.discount}$</b>
                                         </div>
                                     </div>
                                     :

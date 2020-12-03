@@ -218,6 +218,10 @@
     .remove {
         width: 100%;
     }
+    .discount-form {
+        flex-direction: column;
+        align-items: center;
+    }
     .basket-labels {
         display: none;
     }

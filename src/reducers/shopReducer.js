@@ -7,7 +7,6 @@ import {
     RECEIVE_PRODUCTS,
     ORDER_PRODUCTS,
     CHECKOUT_PRODUCTS,
-    CART_DISCOUNT
 } from '../constants/shoppingConstants';
 
 const initialState = {
@@ -16,6 +15,7 @@ const initialState = {
     sort: "",
     cart: [],
     total: 0,
+    discount: 0,
     currentItem: null,
 };
 
@@ -35,7 +35,8 @@ const shopReducer = (state = initialState, action) => {
                 addedItem.quantity += 1
                 return{
                     ...state,
-                    total: state.total + addedItem.price
+                    total: state.total + addedItem.price,
+                    discount: state.total * 20 / 100
                 }
             }
             else{
@@ -45,7 +46,8 @@ const shopReducer = (state = initialState, action) => {
                 return{
                     ...state,
                     cart: [...state.cart, addedItem],
-                    total : newTotal
+                    total : newTotal,
+                    discount: newTotal * 20 / 100
                 }
 
             }
@@ -57,13 +59,15 @@ const shopReducer = (state = initialState, action) => {
             return{
                 ...state,
                 cart: newItems,
-                total: newTotal
+                total: newTotal,
+                discount: newTotal * 20 / 100
             };
         case CHECKOUT_PRODUCTS:
             return {
                 ...state,
                 cart: initialState.cart,
-                total: initialState.total
+                total: initialState.total,
+                discount: initialState.discount
             }
         case LOAD_CURRENT_ITEM:
             return {
@@ -76,7 +80,8 @@ const shopReducer = (state = initialState, action) => {
             let newTotalSum = state.total + addItemQuantity.price
             return{
                 ...state,
-                total: newTotalSum
+                total: newTotalSum,
+                discount: newTotalSum * 20 / 100
             }
         case SUB_QUANTITY:
             let subItemQuantity = state.products.find(item => item.id === action.id)
@@ -86,7 +91,8 @@ const shopReducer = (state = initialState, action) => {
                 return{
                     ...state,
                     cart: newItems,
-                    total: newTotal
+                    total: newTotal,
+                    discount: newTotal * 20 / 100
                 }
             }
             else {
@@ -94,7 +100,8 @@ const shopReducer = (state = initialState, action) => {
                 let newTotal = state.total - subItemQuantity.price
                 return{
                     ...state,
-                    total: newTotal
+                    total: newTotal,
+                    discount: newTotal * 20 / 100
                 }
             }
         case ORDER_PRODUCTS:

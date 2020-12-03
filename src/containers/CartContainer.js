@@ -8,6 +8,7 @@ const mapStateToProps = (state)=>{
         products: state.cart,
         total: state.total,
         cart: state.cart,
+        discount: state.discount
     }
 }
 const mapDispatchToProps = (dispatch)=>{
@@ -16,6 +17,7 @@ const mapDispatchToProps = (dispatch)=>{
         addQuantity: (id) =>{dispatch(addQuantity(id))},
         subtractQuantity: (id) =>{dispatch(subtractQuantity(id))},
         checkout: (products) => { dispatch(checkout(products))},
+        // discount: (discount) => {dispatch(discount(discount))}
     }
 }
 export default connect(
