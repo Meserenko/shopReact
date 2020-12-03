@@ -6,10 +6,40 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
 
 
-const Cart = (props) => {
-        let addedItems = props.products.length ?
+
+class Cart extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            code: '',
+            total: this.props.total,
+            submit: false
+        }
+
+    }
+
+    handleChange = e => {
+        this.setState({
+                code: e.target.value
+         })
+    }
+
+    handleSubmit = e => {
+        e.preventDefault();
+        if (this.state.code === 'discount') {
+            this.setState({
+                total: this.props.total - (this.props.total * 20 / 100),
+                submit: true
+            })
+            alert("Success! You have 20% discount")
+        } else {
+            alert("Error! Promocode is invalid")
+        }
+    }
+    render() {
+        let addedItems = this.props.products.length ?
             (
-                props.products.map(item => {
+                this.props.products.map(item => {
                     return (
                         <div className="basket-product" key={item.id}>
                             <div className='item'>
@@ -25,17 +55,17 @@ const Cart = (props) => {
                             </div>
                             <div className='quantity'>
                                 <TiArrowDownOutline className="arrows"
-                                                    onClick={() => props.subtractQuantity(item.id)}>arrow_drop_down</TiArrowDownOutline>
+                                                    onClick={() => this.props.subtractQuantity(item.id)}>arrow_drop_down</TiArrowDownOutline>
                                 <b>{item.quantity}</b>
                                 <TiArrowUpOutline className="arrows"
-                                                  onClick={() => props.addQuantity(item.id)}>arrow_drop_up</TiArrowUpOutline>
+                                                  onClick={() => this.props.addQuantity(item.id)}>arrow_drop_up</TiArrowUpOutline>
                             </div>
                             <div className='subtotal'>
                                 <b>{item.price * item.quantity}$</b>
                             </div>
                             <div className='remove'>
                                 <FontAwesomeIcon icon={faTimes} className="removeButton"
-                                                 onClick={() => props.removeFromCart(item.id)}>Remove From
+                                                 onClick={() => this.props.removeFromCart(item.id)}>Remove From
                                     Cart</FontAwesomeIcon>
                             </div>
                         </div>
@@ -65,23 +95,40 @@ const Cart = (props) => {
                 <aside>
                     <div className='summary'>
                         <div className='summary-total-items'>
-                            <b className='total-items'>{props.cart.length} Products in your Bag</b>
-                        </div>
-                        <div className='summary-total'>
-                            <div className='total-title'>Total</div>
-                            <div id='basket-total' className='total-value final-value'><b>{props.total}$</b></div>
+                            <b className='total-items'>{this.props.cart.length} Products in your Bag</b>
                         </div>
                         {addedItems.length ?
-                            <Link to='/form'>
-                        <div className='summary-checkout'>
-                            <button className='checkout-button buttons_btn' onClick={() => props.checkout()}>Checkout</button>
-                        </div>
-                            </Link>
-                            : <p className='products-not-found'><b>Products not found</b></p>}
+                            <div>
+                                {this.state.submit === true ?
+                                    <div className='summary-total'>
+                                        <div className='total-title'>Total</div>
+                                        <div id='basket-total' className='total-value final-value'><b className='discount'>{this.props.total}$</b>  <b>{this.state.total}$</b>
+                                        </div>
+                                    </div>
+                                    :
+                                    <div className='summary-total'>
+                                        <div className='total-title'>Total</div>
+                                        <div id='basket-total' className='total-value final-value'><b>{this.props.total}$ </b></div>
+                                    </div>
+                                }
+                                <form action="" onSubmit={this.handleSubmit} className='discount-form'>
+                                    <input type="text" className='promocode-input' onChange={this.handleChange} placeholder='Use promocode'/>
+                                    <button type='submit' className='buttons_btn' disabled={(this.state.submit ? true : false)}>Activate</button>
+                                </form>
+                                <Link to='/form'>
+                                    <div className='summary-checkout'>
+                                        <button className='checkout-button buttons_btn'
+                                                onClick={() => this.props.checkout()}>Checkout
+                                        </button>
+                                    </div>
+                                </Link>
+                            </div>
+                            : <p className='products-not-found'><b>Products not found</b></p>
+                        }
                     </div>
                 </aside>
             </div>
         )
+    }
 }
-
 export default Cart;

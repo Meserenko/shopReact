@@ -15,7 +15,7 @@ const mapDispatchToProps = (dispatch)=>{
         removeFromCart: (id) =>{dispatch(removeFromCart(id))},
         addQuantity: (id) =>{dispatch(addQuantity(id))},
         subtractQuantity: (id) =>{dispatch(subtractQuantity(id))},
-        checkout: (products) => { dispatch(checkout(products))}
+        checkout: (products) => { dispatch(checkout(products))},
     }
 }
 export default connect(

@@ -85,6 +85,22 @@
     width: 45%;
 }
 
+.discount {
+    text-decoration: line-through;
+}
+
+.discount-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.promocode-input {
+    border-radius: 15px;
+    padding: 5px;
+    outline: none;
+}
+
 .remove .removeButton {
     background-color: transparent;
     float: none;

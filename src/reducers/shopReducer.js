@@ -6,7 +6,8 @@ import {
     SUB_QUANTITY,
     RECEIVE_PRODUCTS,
     ORDER_PRODUCTS,
-    CHECKOUT_PRODUCTS, CHANGE_FAVORITE
+    CHECKOUT_PRODUCTS,
+    CART_DISCOUNT
 } from '../constants/shoppingConstants';
 
 const initialState = {
